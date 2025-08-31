@@ -1,11 +1,5 @@
 numpy
+opencv-python-headless
 scikit-learn
 scikit-image
-opencv-python-headless
-requests
 joblib
-
-fastapi
-uvicorn[standard]
-python-multipart
-pillow
