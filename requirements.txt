@@ -1,3 +1,5 @@
+fastapi
+uvicorn
 numpy
 opencv-python-headless
 scikit-learn
