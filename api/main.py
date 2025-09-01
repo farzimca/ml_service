@@ -17,7 +17,7 @@ app = FastAPI()
 # Use a robust path to the models relative to the script location
 base_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(base_dir, '../ml_model/random_forest_model.pkl')
-le_path = os.path.join(base_dir, '../ml_model/label_encoder.kl')
+le_path = os.path.join(base_dir, '../ml_model/label_encoder.pkl')
 
 try:
     model = joblib.load(model_path)
